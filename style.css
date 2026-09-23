@@ -282,6 +282,7 @@ body.no-scroll { overflow: hidden; }
 .hero-img {
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center 22%;
   border-radius: 24px;
   border: 2px solid rgba(255,184,0,0.3);
   box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 60px rgba(255,184,0,0.1);
