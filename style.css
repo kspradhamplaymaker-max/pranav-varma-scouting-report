@@ -1057,7 +1057,13 @@ body.no-scroll { overflow: hidden; }
   .nav-links.open li:last-child { border-bottom: none; }
   .nav-links.open .nav-link { display: block; padding: 14px 16px; font-size: 15px; }
   .nav-links.open .nav-link.nav-cta { margin-top: 6px; text-align: center; }
-  .hero-name { font-size: 60px; letter-spacing: -2px; }
+  .hero-content { padding: 20px 20px 16px; gap: 20px; }
+  .hero-tag { margin-bottom: 10px; }
+  .hero-name { font-size: 60px; letter-spacing: -2px; margin-bottom: 12px; }
+  .hero-tagline { margin-bottom: 18px; padding-left: 12px; }
+  .hero-photo { margin-top: 0; }
+  .hero-photo-frame { aspect-ratio: 4 / 4.3; }
+  .hero-img { object-position: center 16%; }
   .hero-stats-bar { gap: 0; }
   .hstat { padding: 0 16px; }
   .hstat-val { font-size: 24px; }
