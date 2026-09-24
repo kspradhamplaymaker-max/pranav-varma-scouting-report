@@ -676,7 +676,6 @@ body.no-scroll { overflow: hidden; }
   background: var(--white-10); color: var(--white-70);
   padding: 3px 10px; border-radius: 4px;
 }
-.vc-sub { font-size: 12px; color: var(--white-60); line-height: 1.5; padding: 12px 16px; }
 
 /* WATCH THE GAME - CATEGORY CARDS */
 .video-category-grid {
