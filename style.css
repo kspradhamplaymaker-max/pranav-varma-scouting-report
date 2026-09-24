@@ -951,8 +951,34 @@ body.no-scroll { overflow: hidden; }
   transition: all var(--dur) var(--ease);
 }
 .char-tag:hover { background: rgba(255,184,0,0.1); border-color: rgba(255,184,0,0.3); }
-.char-note { font-size: 13px; color: var(--white-50); font-style: italic; line-height: 1.7; }
+.char-note { font-size: 13px; color: var(--white-50); font-style: italic; line-height: 1.7; margin-top: 24px; }
 .character-section > .fc-link { display: inline-block; margin-top: 16px; }
+
+.char-interests {
+  display: flex; flex-wrap: wrap; column-gap: 10px; row-gap: 6px;
+  font-family: var(--font-display); font-size: 15px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase;
+  color: var(--white-70); margin-bottom: 24px;
+}
+.char-interests span:not(:last-child)::after { content: '\00B7'; margin-left: 10px; color: var(--white-40); }
+.bball-feature {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-left: 3px solid var(--gold);
+  border-radius: 12px;
+  padding: 24px 28px;
+}
+.bball-label {
+  font-family: var(--font-display); font-size: 11px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase;
+  color: var(--white-50); margin-bottom: 8px;
+}
+.bball-highlight {
+  font-family: var(--font-display); font-size: 18px; font-weight: 700;
+  color: var(--gold); margin-bottom: 12px;
+}
+.bball-desc { font-size: 14px; color: var(--white-70); line-height: 1.7; margin-bottom: 16px; }
+.bball-feature > .fc-link { display: inline-block; }
 
 /* ===========================
    CONTACT
